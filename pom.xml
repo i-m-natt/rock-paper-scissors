@@ -11,7 +11,6 @@
 	<distributionManangement>
 		<repository>
 			<id>github</id>
-			<name>roshambo</name>
 			<url>https://maven.pkg.github.com/i-m-natt/github-example-package</url>
 		</repository>	
 	</distributionManangement>	
