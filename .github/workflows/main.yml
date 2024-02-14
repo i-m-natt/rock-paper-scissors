@@ -42,11 +42,6 @@ jobs:
         with:
           name: github-actions-artifact
           path: staging
-     
-      - name: Step6 -Publish to GitHub Packages Apache Maven
-        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
-        env:
-        GITHUB_TOKEN: ${{ github.token }}
 
 
           
