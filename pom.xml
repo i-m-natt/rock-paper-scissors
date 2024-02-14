@@ -4,14 +4,14 @@
 	<groupId>com.mcnz.rps</groupId>
 	<artifactId>roshambo</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>jar</packaging>
 
 	<name>roshambo</name>
 
 	<distributionManangement>
 		<repository>
 			<id>github</id>
-			<url>https://maven.pkg.github.com/i-m-natt/github-example-package</url>
+			<url>https://maven.pkg.github.com/i-m-natt/rock-paper-scissors</url>
 		</repository>	
 	</distributionManangement>	
 
@@ -38,7 +38,7 @@
 					<configuration>
 						<!-- context root for Java web apps -->
 						<path>/</path>
-						<port>8088</port>
+						<port>7001</port>
 						<!-- name of Tomcat executable jar file -->
 						<finalName>executable.jar</finalName>
 					</configuration>
